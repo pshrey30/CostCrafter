@@ -1,7 +1,3 @@
-Certainly! Below is a sample README file for the "CostCrafter" project:
-
----
-
 # CostCrafter
 
 CostCrafter is a mobile application designed to help travelers efficiently track and manage their expenses while on the go. This React Native app utilizes Firebase for storing expense data, ensuring seamless synchronization across devices.
