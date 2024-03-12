@@ -81,7 +81,10 @@ const AddExpenseScreen = (props) => {
                                         return (
                                             <TouchableOpacity onPress={() => setCategory(cat.value)}
                                                 key={cat.value}
-                                                style={styles.catbtn}
+                                                style={[
+                                                    styles.catbtn,
+                                                    category === cat.value && { backgroundColor: '#ff99c8' }
+                                                ]}
                                             >
                                                 <Text style={{ color: 'black' }}>{cat.title}</Text>
                                             </TouchableOpacity>
