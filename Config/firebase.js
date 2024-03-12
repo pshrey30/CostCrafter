@@ -27,7 +27,7 @@ export const db = getFirestore(app);
 // // Exporting necessary references
 // export { db, auth };
 
-export const auth = getAuth(app);
+//export const auth = getAuth(app);
 
 export const tripsRef = collection(db, 'trip')
 export const expensesRef = collection(db, 'expenses')
