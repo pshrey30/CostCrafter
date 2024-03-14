@@ -9,18 +9,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// const firebaseConfig = {
-//    //Add your data from the firebase
-// };
-
 const firebaseConfig = {
-    apiKey: "AIzaSyBZ_gnY9lNjhmM-0U02suNK_GUc_L7d24U",
-    authDomain: "costcrafter-e02c7.firebaseapp.com",
-    projectId: "costcrafter-e02c7",
-    storageBucket: "costcrafter-e02c7.appspot.com",
-    messagingSenderId: "182592019441",
-    appId: "1:182592019441:web:2ae35aa484428c85738250"
+   //Add your data from the firebase
 };
+
 
 
 
